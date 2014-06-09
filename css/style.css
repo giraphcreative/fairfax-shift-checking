@@ -35,6 +35,13 @@ strong {
 a {
 	color: #2e3092;
 	text-decoration: none;
+	-webkit-transition: opacity 400ms ease-in-out;
+	transition: opacity 400ms ease-in-out;
+	opacity: .85;
+}
+
+a:hover {
+	opacity: 1;
 }
 
 p {
